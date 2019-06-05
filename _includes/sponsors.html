@@ -9,7 +9,12 @@
           <li>
             <div class="logo">
               <a href="{{ item.link }}" rel="noopener" target="_blank">
-                <img src="{{ baseurl }}{{ item.img_url | absolute_url }}" alt="{{ item.name }}" />
+                  <picture class="project-tmb-img"> 
+                    <source srcset="{{ baseurl }}{{ item.webp_img_url | absolute_url }}"  >
+                    <source srcset="{{ baseurl }}{{ item.img_url | absolute_url }}" >
+                    <img src="{{ baseurl }}{{ item.img_url | absolute_url }}"   alt={{item.alt}}/>
+                  </picture>  
+                <!-- <img src="{{ baseurl }}{{ item.img_url | absolute_url }}" alt="{{ item.name }}" /> -->
               </a>
             </div>
           </li>
