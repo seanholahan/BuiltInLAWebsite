@@ -1,8 +1,8 @@
 <header class="hero">
     <picture id="heroImg"> 
-      <source srcset="/assets/webp_images/hero/hacknight-women.webp" type="image/webp"/>
-      <source srcset="/assets/images/hero/hacknight-women.jpg" type="image/jpeg"/>
-      <img src="/assets/images/hero/hacknight-women.jpg"  alt={{item.alt}}/>
+      <source srcset="{{ baseurl }}{{ '/assets/webp_images/hero/hacknight-women.webp' | absolute_url }}"type="image/webp"/>
+      <source srcset="{{ baseurl }}{{ '/assets/images/hero/hacknight-women.jpg' | absolute_url }}" type="image/jpeg"/>
+      <img src= "{{ baseurl }}{{ '/assets/images/hero/hacknight-women.jpg' | absolute_url }}"   alt={{item.alt}}/>
     </picture>    
   <div class="hero-inner">
     <h1>You can change LA for the better!</h1>
