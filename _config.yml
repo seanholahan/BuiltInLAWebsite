@@ -8,7 +8,7 @@ email: hello@hackforla.org
 description: Hack for LA's website!
 
 baseurl: ""
-url: https://www.hackforla.org
+url: https://seanholahan.github.io/HackForLAWebsite
 
 
 collections:
