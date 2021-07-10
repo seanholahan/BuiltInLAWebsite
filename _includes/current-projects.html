@@ -7,7 +7,13 @@
             <li class="project-card">
               <div class="project-card-inner">
                 <div class="project-tmb">
-                  <img src={{ item.image | absolute_url }} class="project-tmb-img" alt={{item.alt}}/>
+                    <picture class="project-tmb-img" alt={{item.alt}}> 
+                        <source srcset={{item.webp_image|absolute_url}}   type="image/webp">
+                        <source srcset={{item.image|absolute_url}}  type="image/jpeg"> 
+                          
+                        <img src={{item.image|absolute_url}} class="project-tmb-img" alt={{item.alt}}/>
+      
+                      </picture>  
                 </div>
                 <div class="project-body">
                   <h4 class="project-title">{{ item.title }}</h4>

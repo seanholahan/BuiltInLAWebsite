@@ -4,6 +4,7 @@ address2: 525 Colorado Ave.
 city: Santa Monica
 event-date: 'Mondays at 6:00 pm'
 image: /assets/images/hack-nights/westside.jpg
+webp_image: /assets/webp_images/hack-nights/westside.webp
 ordinal: 0
 state: CA
 title: Westside

@@ -4,6 +4,7 @@ address2: 525 S Hewitt St
 city: Los Angeles
 event-date: 'Tuesdays at 6:00 pm'
 image: /assets/images/hack-nights/downtown-la.jpg
+webp_image: /assets/webp_images/hack-nights/downtown-la.webp
 ordinal: 1
 state: CA
 title: Downtown LA

@@ -2,6 +2,7 @@
 title: Food Oasis
 description: Everyone deserves access to healthy food. Help us make it easier for Angelenos to find the best places to buy or grow healthy food in their city.
 image: /assets/images/projects/food-oasis.jpg
+webp_image: /assets/webp_images/projects/food-oasis.webp
 alt: "'vegatables beats stacked'"
 links: 
   - name: Github
